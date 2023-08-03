@@ -1,5 +1,5 @@
 # geojson
-I simple api that returns geojson for a given coordinates
+A simple api that returns geojson for a given coordinates
 
 # env
 PORT=8100
