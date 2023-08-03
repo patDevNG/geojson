@@ -2,7 +2,7 @@ import { GeoJsonService } from '../src/service'; // replace with actual path
 import { getOsmData } from '../src/util'; // replace with actual path
 import osmtogeojson from 'osmtogeojson';
 import 'reflect-metadata';
-jest.mock('../src/util'); // replace with actual path
+jest.mock('../src/util'); 
 jest.mock('osmtogeojson');
 
 describe('GeoJsonService', () => {

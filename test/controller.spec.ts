@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { GeoJsonController } from '../src/controller'; // replace with actual path
-import { IGeoJsonService } from '../src/service'; // replace with actual path
+import { GeoJsonController } from '../src/controller'; 
+import { IGeoJsonService } from '../src/service'; 
 import supertest from 'supertest';
 import express from 'express';
 
